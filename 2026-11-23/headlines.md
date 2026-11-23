@@ -1,0 +1,28 @@
+# World News — 23 November 2026
+
+Text version of `world-news-2026-11-23.png`, with sources. A date in brackets means that region's latest verified story before 23 November.
+
+- **Nigeria:** [Tinubu donates N250m as Bayelsa boat tragedy death toll rises to 29](https://punchng.com/tinubu-donates-n250m-to-families-of-bayelsa-boat-victims/)
+- **Climate:** [COP31 in Antalya ends without a deal after record-long UN climate talks](https://www.abc.net.au/news/2026-11-23/cop31-talks-break-down-in-longest-ever-un-climate-debate/107414772)
+- **Markets:** [Wall Street enters a correction as AI stocks tumble; S&P 500 falls 3.7%](https://www.brisbanetimes.com.au/business/markets/asx-set-for-losses-wall-street-plunges-into-correction-as-ai-stocks-tumble-20261123-p61gbz.html)
+- **West Africa (Nov 21):** [Mahama tasks private sector to drive Ghana's $10bn New Economy programme](https://channelonenewsonline.com/2026/11/21/mahama-tasks-private-sector-to-drive-10bn-new-economy-programme/)
+- **East Africa:** [Kenya and DR Congo agree to fully restore ambassadorial ties](https://english.news.cn/africa/20261123/395007b12bf34324bd7465e1d96ad176/c.html)
+- **Southern Africa (Nov 22):** [Overberg wildfire burns 25,000 hectares and destroys 24 homes](https://www.timeslive.co.za/news/south-africa/2026-11-22-24-homes-destroyed-as-25000ha-overberg-wildfire-continues-to-burn/)
+- **North Africa:** [Suspected Ukrainian drones badly damage a Russian warship in Benghazi](https://www.straitstimes.com/world/while-you-were-sleeping-5-stories-you-might-have-missed-nov-23-2026)
+- **Israel:** [Netanyahu and Eisenkot end coalition talks without a government deal](https://www.straitstimes.com/world/while-you-were-sleeping-5-stories-you-might-have-missed-nov-23-2026)
+- **Iran / Gulf (Nov 22):** [Iranian strike on a Bahrain industrial plant injures two, one critically](https://www.thenationalnews.com/news/gulf/2026/11/22/two-injured-one-critically-in-iranian-attack-on-industrial-plant-in-bahrain/)
+- **Ukraine / Russia:** [Russian drone strike on a Dymer apartment block kills six near Kyiv](https://www.ansa.it/sito/notizie/topnews/2026/11/23/kiev-il-bilancio-dellattacco-russo-a-dymer-e-salito-a-sei-morti_ece2eae5-6885-41de-a97d-23a92cd0019e.html)
+- **Poland / NATO (Nov 20–21):** [Russian missiles and a drone fall in southeast Poland; Tusk cites provocation](https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond)
+- **United Kingdom (Nov 20):** [Burnham seals a UK–EU deal on food checks, carbon markets and youth mobility](https://www.gov.uk/government/news/costs-cut-prime-minister-secures-deal-with-eu-to-cut-costs-keep-prices-down-and-create-opportunities-for-young-people-worth-up-to-17-billion-per-year)
+- **European Union:** [EU rejects the COP31 deal after the final text omits fossil fuels](https://www.reuters.com/3fec1b0a85a0/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/)
+- **United States:** [US probes an alleged Chinese spy linked to a former Nvidia CEO](https://www.straitstimes.com/world/while-you-were-sleeping-5-stories-you-might-have-missed-nov-23-2026)
+- **Canada (Nov 20–21):** [Trump says US–Canada trade talks continue, with Keystone XL a factor](https://www.theglobeandmail.com/world/us-politics/article-us-canada-trade-deal-keystone-xl-trump-november-20/)
+- **Mexico (Nov 20):** [A migrant caravan of about 800 moves through Chiapas amid a tariff threat](https://www.cbc.ca/news/world/mexico-u-s-caravan-migrants-9.7428712)
+- **Brazil:** [Brazil's Chamber is set to vote today on Lula's fiscal package](https://g1.globo.com/politica/noticia/2026/11/22/camara-deve-votar-projeto-de-ajuste-fiscal-nesta-segunda.ghtml)
+- **India (Nov 22):** [Two Rajasthan road accidents kill 12 people and injure 23](https://english.news.cn/20261122/a785c3b7251f4a10b97fb302966d242e/c.html)
+- **Pakistan (Nov 22):** [Three terrorists killed in a joint Peshawar-area counterterror operation](https://english.news.cn/20261123/dafaff06cdfa4a64b4ca253ff848661e/c.html)
+- **China (Nov 20):** [China tells Japan to correct Taiwan remarks after Xi snubs Takaichi](https://www.straitstimes.com/world/china-says-japan-must-change-attitude-after-xi-snub-of-takaichi)
+- **Japan (Nov 19–20):** [Takaichi returns from China without a formal meeting with Xi, urges dialogue](https://www.taipeitimes.com/News/world/archives/2026/11/21/2003868145)
+- **South Korea (Nov 22):** [South Korea's education minister resigns after an AI exam-cheating scandal](https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams)
+- **Southeast Asia:** [Banten candy factory fire: 24 body bags recovered, dozens still unaccounted for](https://english.news.cn/20261123/dafaff06cdfa4a64b4ca253ff848661e/c.html)
+- **Australia:** [Australia-co-led COP31 talks collapse; Bowen calls the outcome very disappointing](https://www.abc.net.au/news/2026-11-23/cop31-talks-break-down-in-longest-ever-un-climate-debate/107414772)
