@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>World News — 23 November 2026</title>
+<style>
+  @font-face { font-family: Inter; src: url("file:///usr/share/fonts/truetype/sand-box/google/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype"); font-weight: 100 900; }
+  @font-face { font-family: "Source Sans 3"; src: url("file:///usr/share/fonts/truetype/sand-box/google/Source Sans 3/SourceSans3-VariableFont_wght.ttf") format("truetype"); font-weight: 200 900; }
+  @font-face { font-family: Fraunces; src: url("file:///usr/share/fonts/truetype/sand-box/google/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf") format("truetype"); font-weight: 100 900; }
+  @font-face { font-family: "Noto Color Emoji"; src: url("file:///usr/share/fonts/truetype/noto/NotoColorEmoji.ttf") format("truetype"); }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    width: 1600px;
+    background: #0B1220;
+    color: #F3EEE4;
+    font-family: "Source Sans 3", Inter, sans-serif;
+  }
+  .page {
+    width: 1600px;
+    padding: 40px 48px 28px;
+    background:
+      radial-gradient(1200px 500px at 50% -40px, rgba(224,177,75,0.10), transparent 60%),
+      linear-gradient(180deg, #101A2C 0%, #0B1220 220px, #0B1220 100%);
+  }
+  .masthead {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 2px solid #E0B14B;
+    padding-bottom: 18px;
+    margin-bottom: 22px;
+    gap: 24px;
+  }
+  .kicker {
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: 650;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #E0B14B;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-family: Fraunces, "Noto Serif", serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    color: #F7F3EA;
+  }
+  .mast-meta {
+    text-align: right;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    line-height: 1.45;
+    color: #C9C3B6;
+    max-width: 420px;
+    padding-bottom: 6px;
+  }
+  .mast-meta strong { color: #F7F3EA; font-weight: 650; }
+
+  .lead {
+    display: grid;
+    grid-template-columns: 88px 1fr;
+    gap: 22px;
+    align-items: start;
+    background: linear-gradient(135deg, #16301F 0%, #1C3A26 55%, #15281C 100%);
+    border: 1px solid #2F6A45;
+    border-radius: 16px;
+    padding: 22px 26px 24px;
+    margin-bottom: 18px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+  }
+  .lead-flag {
+    font-family: "Noto Color Emoji", "Source Sans 3", sans-serif;
+    font-size: 64px;
+    line-height: 1;
+    padding-top: 4px;
+    text-align: center;
+  }
+  .lead .region {
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #9BE1B0;
+    margin-bottom: 8px;
+  }
+  .lead h2 {
+    font-family: Fraunces, serif;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1.18;
+    color: #F8F6EF;
+    max-width: 1280px;
+  }
+  .lead p {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #D5E7DA;
+    max-width: 1280px;
+  }
+
+  .banners {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+  .banner {
+    background: #151E30;
+    border: 1px solid #2A364C;
+    border-radius: 14px;
+    padding: 18px 20px 18px 20px;
+    min-height: 128px;
+  }
+  .banner.climate { border-left: 5px solid #6FBF8A; }
+  .banner.markets { border-left: 5px solid #E0B14B; }
+  .banner .top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .emoji {
+    font-family: "Noto Color Emoji", "Source Sans 3", sans-serif;
+    font-size: 22px;
+    line-height: 1;
+  }
+  .region {
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #E0B14B;
+  }
+  .banner h3, .card h3 {
+    font-family: "Source Sans 3", Inter, sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1.28;
+    color: #F4F0E6;
+  }
+  .banner h3 { font-size: 22px; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+  }
+  .card {
+    background: #141C2C;
+    border: 1px solid #273247;
+    border-radius: 14px;
+    padding: 16px 16px 16px 16px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .card .left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+  }
+  .date {
+    font-family: Inter, sans-serif;
+    font-size: 11px;
+    font-weight: 650;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #0B1220;
+    background: #C9C3B6;
+    border-radius: 999px;
+    padding: 2px 8px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .card h3 { font-size: 18.5px; }
+
+  .footer {
+    margin-top: 20px;
+    padding-top: 14px;
+    border-top: 1px solid #2A364C;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 12.5px;
+    line-height: 1.45;
+    color: #9AA3B2;
+  }
+  .footer strong { color: #D8D2C6; font-weight: 650; }
+</style>
+</head>
+<body>
+  <div class="page">
+    <header class="masthead">
+      <div>
+        <div class="kicker">Daily briefing · 22 regions plus climate and markets</div>
+        <h1>World News — 23 November 2026</h1>
+      </div>
+      <div class="mast-meta">
+        <strong>Monday, 23 November 2026</strong><br>
+        Africa/Lagos (UTC+1)<br>
+        Verified headlines from sources opened today
+      </div>
+    </header>
+
+    <section class="lead">
+      <div class="lead-flag">🇳🇬</div>
+      <div>
+        <div class="region">Nigeria · Featured</div>
+        <h2>Tinubu donates N250m as Bayelsa boat tragedy death toll rises to 29</h2>
+        <p>The president also ordered stricter inland-waterway safety rules after Friday’s capsizing in Southern Ijaw, which left more than 50 survivors.</p>
+      </div>
+    </section>
+
+    <section class="banners">
+      <article class="banner climate">
+        <div class="top"><span class="emoji">🌍</span><span class="region">Climate · Global</span></div>
+        <h3>COP31 in Antalya ends without a deal after record-long UN climate talks</h3>
+      </article>
+      <article class="banner markets">
+        <div class="top"><span class="emoji">📉</span><span class="region">Markets · Global</span></div>
+        <h3>Wall Street enters a correction as AI stocks tumble; S&amp;P 500 falls 3.7%</h3>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇬🇭</span><span class="region">West Africa</span></div>
+          <span class="date">21 Nov</span>
+        </div>
+        <h3>Mahama tasks private sector to drive Ghana’s $10bn New Economy programme</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇰🇪</span><span class="region">East Africa</span></div>
+        </div>
+        <h3>Kenya and DR Congo agree to fully restore ambassadorial ties</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇿🇦</span><span class="region">Southern Africa</span></div>
+          <span class="date">22 Nov</span>
+        </div>
+        <h3>Overberg wildfire burns 25,000 hectares and destroys 24 homes</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇱🇾</span><span class="region">North Africa</span></div>
+        </div>
+        <h3>Suspected Ukrainian drones badly damage a Russian warship in Benghazi</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇮🇱</span><span class="region">Israel</span></div>
+        </div>
+        <h3>Netanyahu and Eisenkot end coalition talks without a government deal</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇧🇭</span><span class="region">Iran / Gulf</span></div>
+          <span class="date">22 Nov</span>
+        </div>
+        <h3>Iranian strike on a Bahrain industrial plant injures two, one critical</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇺🇦</span><span class="region">Ukraine / Russia</span></div>
+        </div>
+        <h3>Russian drone strike on a Dymer apartment block kills six near Kyiv</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇵🇱</span><span class="region">Poland / NATO</span></div>
+          <span class="date">20–21 Nov</span>
+        </div>
+        <h3>Russian missiles and a drone fall in southeast Poland; Tusk cites provocation</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇬🇧</span><span class="region">United Kingdom</span></div>
+          <span class="date">20 Nov</span>
+        </div>
+        <h3>Burnham seals a UK–EU deal on food checks, carbon markets and youth mobility</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇪🇺</span><span class="region">European Union</span></div>
+        </div>
+        <h3>EU rejects the COP31 deal after the final text omits fossil fuels</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇺🇸</span><span class="region">United States</span></div>
+        </div>
+        <h3>US probes an alleged Chinese spy linked to a former Nvidia CEO</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇨🇦</span><span class="region">Canada</span></div>
+          <span class="date">20–21 Nov</span>
+        </div>
+        <h3>Trump says US–Canada trade talks continue, with Keystone XL a factor</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇲🇽</span><span class="region">Mexico</span></div>
+          <span class="date">20 Nov</span>
+        </div>
+        <h3>A migrant caravan of about 800 moves through Chiapas amid a tariff threat</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇧🇷</span><span class="region">Brazil</span></div>
+        </div>
+        <h3>Brazil’s Chamber is set to vote today on Lula’s fiscal package</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇮🇳</span><span class="region">India</span></div>
+          <span class="date">22 Nov</span>
+        </div>
+        <h3>Two Rajasthan road accidents kill 12 people and injure 23</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇵🇰</span><span class="region">Pakistan</span></div>
+          <span class="date">22 Nov</span>
+        </div>
+        <h3>Three terrorists killed in a joint Peshawar-area counterterror operation</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇨🇳</span><span class="region">China</span></div>
+          <span class="date">20 Nov</span>
+        </div>
+        <h3>China tells Japan to correct Taiwan remarks after Xi snubs Takaichi</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇯🇵</span><span class="region">Japan</span></div>
+          <span class="date">19–20 Nov</span>
+        </div>
+        <h3>Takaichi returns from China without a formal meeting with Xi, urges dialogue</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇰🇷</span><span class="region">South Korea</span></div>
+          <span class="date">22 Nov</span>
+        </div>
+        <h3>South Korea’s education minister resigns after an AI exam-cheating scandal</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇮🇩</span><span class="region">Southeast Asia</span></div>
+        </div>
+        <h3>Banten candy factory fire: 24 body bags recovered, dozens still unaccounted for</h3>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="left"><span class="emoji">🇦🇺</span><span class="region">Australia</span></div>
+        </div>
+        <h3>Australia-co-led COP31 talks collapse; Bowen calls the outcome very disappointing</h3>
+      </article>
+
+    </section>
+
+    <footer class="footer">
+      <div>Cards marked with an earlier date use that region’s most recent verified story, not a later invention. Nigeria is featured from 23 November reporting.</div>
+      <div style="text-align:right; white-space:nowrap;"><strong>World briefing</strong> · Africa/Lagos · 23 Nov 2026</div>
+    </footer>
+  </div>
+</body>
+</html>
